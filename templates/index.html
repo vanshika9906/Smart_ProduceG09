@@ -21,35 +21,11 @@
   </head>
   <body>
 
-  	<div class="wrap">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 d-flex align-items-center">
-						<p class="mb-0 phone pl-md-2">
-							<a href="{% static '#'%}" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
-							<a href="{% static '#'%}"><span class="fa fa-paper-plane mr-1"></span> freshgreen@email.com</a>
-						</p>
-					</div>
-					<div class="col-md-6 d-flex justify-content-md-end">
-						<div class="social-media mr-4">
-			    		<p class="mb-0 d-flex">
-			    			<a href="{% static '#'%}" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-			    			<a href="{% static '#'%}" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-			    			<a href="{% static '#'%}" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-			    			<a href="{% static '#'%}" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-			    		</p>
-		        </div>
-		        <div class="reg">
-		        	<p class="mb-0"><a href="{% static '#'%}" class="mr-2">Sign Up</a> <a href="{% static '#'%}">Log In</a></p>
-		        </div>
-					</div>
-				</div>
-			</div>
-		</div>
+
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Fresh<span>Greens</span></a>
+	      <a class="navbar-brand" href="index.html">Fresh Greens</a>
 	      <div class="order-lg-last btn-group">
           <a href="{% static '#' %}" class="btn-cart dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           	<span class="flaticon-shopping-bag"></span>
@@ -88,21 +64,11 @@
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="{% static 'index.html'%}" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="{% static 'about.html'%}" class="nav-link">About</a></li>
-	          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="{% static '#'%}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown04">
-              	<a class="dropdown-item" href="{% static 'product.html'%}">Products</a>
-                <a class="dropdown-item" href="{% static 'product-single.html'%}">Single Product</a>
-                <a class="dropdown-item" href="{% static 'cart.html'%}">Cart</a>
-                <a class="dropdown-item" href="{% static 'checkout.html'%}">Checkout</a>
-              </div>
-            </li>
-	          <li class="nav-item"><a href="{% static 'blog.html'%}" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="{% static 'contact.html'%}" class="nav-link">Contact</a></li>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="{% static 'index.html'%}" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="{% static 'index.html'%}" class="nav-link">Login/Sign Up</a></li>
+                <li class="nav-item active"><a href="{% static 'index.html'%}" class="nav-link">contact Us</a></li>
+                </li>
 	        </ul>
 	      </div>
 	    </div>
@@ -116,52 +82,13 @@
           <div class="col-md-8 ftco-animate d-flex align-items-end">
           	<div class="text w-100 text-center">
 	            <h1 class="mb-4"> <span> Healthy Food </span> for a <span>Healthy Lifestyle</span>.</h1>
-	            <p><a href="{% static '#'%}" class="btn btn-primary py-2 px-4">Shop Now</a> <a href="{% static '#'%}" class="btn btn-white btn-outline-white py-2 px-4">Read more</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <section class="ftco-intro">
-    	<div class="container">
-    		<div class="row no-gutters">
-    			<div class="col-md-4 d-flex">
-    				<div class="intro d-lg-flex w-100 ftco-animate">
-    					<div class="icon">
-    						<span class="flaticon-support"></span>
-    					</div>
-    					<div class="text">
-    						<h2>Online Support 24/7</h2>
-    						<p>We are here for your every problem.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4 d-flex">
-    				<div class="intro color-1 d-lg-flex w-100 ftco-animate">
-    					<div class="icon">
-    						<span class="flaticon-cashback"></span>
-    					</div>
-    					<div class="text">
-    						<h2>Money Back Guarantee</h2>
-    						<p>We provide money back guarantee.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4 d-flex">
-    				<div class="intro color-2 d-lg-flex w-100 ftco-animate">
-    					<div class="icon">
-    						<span class="flaticon-free-delivery"></span>
-    					</div>
-    					<div class="text">
-    						<h2>Shipping &amp; Return</h2>
-    						<p>We provide shipping taking and return policy.</p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+
 
     <section class="ftco-section ftco-no-pb">
 			<div class="container">
@@ -170,15 +97,14 @@
 					</div>
 					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
 	          <div class="heading-section">
-	          	<span class="subheading">Since 2000</span>
-	            <h2 class="mb-4">Fresh Vegetables  </h2>
+	            <h2 class="mb-4">Fresh Greens</h2>
 
 	            <p>Fresh Green is an Indian online vegetable delivery service. It was founded in December 2000 and is based out of Gurugram. As of 2005, the company has raised about $535.5 million from investors including SoftBank, Tiger Global and Sequoia Capital. The name FreshGreen is a portmanteau of "Fresh Greens".</p>
 	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-	            <p class="year">
+	            <!-- <p class="year">
 	            	<strong class="number" data-number="20">0</strong>
 		            <span>Years of Experience In Business</span>
-	            </p>
+	            </p> --->
 	          </div>
 
 					</div>
@@ -323,101 +249,6 @@
 			</div>
 		</section>
 
-    <section class="ftco-section testimony-section img" style="background-image: url({% static 'images/b4.jpg'%});">
-    	<div class="overlay"></div>
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-          	<span class="subheading">Testimonial</span>
-            <h2 class="mb-3">Happy Clients</h2>
-          </div>
-        </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url({% static 'images/person_1.jpg'%})"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url({% static 'images/person_2.jpg'%})"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url({% static 'images/person_3.jpg'%})"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url({% static 'images/person_1.jpg'%})"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url({% static 'images/person_2.jpg'%})"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -505,7 +336,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-sm-12 col-md">
+        <!-- <div class="col-sm-12 col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">My Accounts</h2>
               <ul class="list-unstyled">
@@ -537,10 +368,10 @@
                 <li><a href="{% static '#'%}"><span class="fa fa-chevron-right mr-2"></span>Faq's</a></li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <div class="col-sm-12 col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Have Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
