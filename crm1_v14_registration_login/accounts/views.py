@@ -32,6 +32,9 @@ def registerPage(request):
 		context = {'form':form}
 		return render(request, 'accounts/register.html', context)
 
+def indexPage(request):
+	return render(request, 'accounts/index.html')
+
 def loginPage(request):
 	if request.user.is_authenticated:
 		return redirect('home')
@@ -53,7 +56,7 @@ def loginPage(request):
 
 def logoutUser(request):
 	logout(request)
-	return redirect('login')
+	return redirect('index')
 
 
 @login_required(login_url='login')
