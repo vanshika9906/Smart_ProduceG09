@@ -1,0 +1,48 @@
+{% block content %}
+
+
+
+    <style>
+        img{
+        height: 500px;
+        width: 450px;
+        }
+        h1{
+        color: darkgreen;
+        margin-top: 20px;
+        font-family: Comic Sans MS, cursive, sans-serif;
+        }
+    </style>
+
+    <script>
+        function generateQR(){
+        document.getElementById('QRcode')
+        .src='../../../static/images/icons/myqr2.png';
+        document.getElementById('message')
+        .innerHTML="Scan QR for Status";
+    }
+    </script>
+<br>
+
+<div class="row">
+	<div class="col-md-5">
+		<h5>Check My Order:</h5>
+		<hr>
+		<div class="card card-body">
+
+
+
+            <div class="card card-body">
+                <h1 id="message">
+                   Scan QR for Status
+               </h1>
+                <img id="QRcode" src="../../../static/images/icons/myqr2.png" alt="image not found">
+            </div>
+	</div>
+
+    </div>
+	</div>
+
+</div>
+</div>
+{% endblock %}

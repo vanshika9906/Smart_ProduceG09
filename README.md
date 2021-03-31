@@ -1,1 +1,2 @@
-# Smart_ProduceG09
+# crash-course-CRM
+Django customer management platform
